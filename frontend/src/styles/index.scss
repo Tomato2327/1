@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+.page-container {
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.table-toolbar {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination-container {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stat-card {
+  text-align: center;
+  
+  .stat-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #409eff;
+  }
+  
+  .stat-label {
+    font-size: 14px;
+    color: #909399;
+    margin-top: 8px;
+  }
+}
